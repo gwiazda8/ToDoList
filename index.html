@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To do list</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="container my-container">
+            <div class="container addContainer">
+                <div class="row firstRow">
+                    <div class="col-12 align-self-center">Moje zadania</div>
+                </div>
+                <div class="row secRow">
+                    <input type="text" class="col-10  w-100" id="myTask" placeholder="Wpisz nowe zadanie...">
+                    <button id="addBtn" class="col-2 addButton px-0"><i class="far fa-plus-square"></i></button>
+                    <button id="addBtn" class="col-2 update px-0"><i class="fas fa-wrench"></i></button>
+                </div>
+            </div>
+            <div class="container">
+                <ul id="ulCont" class="row ulContainer text-left">
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+    <footer id="footer" class="footer">
+
+        &copy; 2018. All rights reserved.
+
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
